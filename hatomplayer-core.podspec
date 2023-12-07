@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/MMMMiller/hkplayer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = ''
-  s.source           = { :git = > 'https://github.com/MMMMiller/hkplayer',:tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MMMMiller/hkplayer', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.ios.frameworks  = 'UIKit','Foundation', 'VideoToolbox', 'OpenGLES', 'OpenAL','CoreVideo', 'CoreMedia', 'AudioToolbox', 'GLKit', 'OpenAL', 'SystemConfiguration', 'CoreTelephony','AVFoundation'
@@ -27,7 +27,8 @@ TODO: Add long description of the pod here.
     'STRINGS_FILE_OUTPUT_ENCODING'          => 'UTF-8',
     'ONLY_ACTIVE_ARCH'                      => 'NO',
     'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF'  => 'NO',
-    'CLANG_WARN_STRICT_PROTOTYPES'          => 'NO'
+    'CLANG_WARN_STRICT_PROTOTYPES'          => 'NO',
+    'VALID_ARCHS'                           => 'arm64'
   }
 
 end
