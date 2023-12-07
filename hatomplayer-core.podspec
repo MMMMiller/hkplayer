@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
     'ONLY_ACTIVE_ARCH'                      => 'NO',
     'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF'  => 'NO',
     'CLANG_WARN_STRICT_PROTOTYPES'          => 'NO',
-    'VALID_ARCHS'                           => 'arm64'
+    'VALID_ARCHS'                           => 'arm64 x86_64 armv7'
   }
 
 end
